@@ -1,0 +1,13 @@
+{
+  "name": "gameOfLife",
+  "scripts": {
+    "tsc": "tsc",
+    "build": "tsc && browserify dist/index.js -o dist/bundle.js",
+    "browserify": "browserify dist/index.js -o dist/bundle.js"
+  },
+  "dependencies": {
+    "browserify": "^14.5.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  }
+}

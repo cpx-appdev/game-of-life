@@ -1,0 +1,11 @@
+{
+    "rules": {
+        "arrow-parens": false,
+        "arrow-return-shorthand": true,
+        "quotemark": [
+            true,
+            "double"
+        ],
+        "prefer-template": true
+    }
+}
